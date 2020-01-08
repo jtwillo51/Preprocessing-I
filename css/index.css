@@ -1,1 +1,261 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+.box-spacing {
+  margin: 1%;
+  padding: 1%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1% 20%;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  background: #543c2c;
+}
+nav a {
+  margin: 2%;
+  color: white;
+  font-size: 1.15rem;
+  padding: 0 4px;
+}
+nav a:hover {
+  background-color: #a5887a;
+  border-radius: 8px;
+  color: #fffffff5;
+}
+header {
+  height: 70vh;
+  background: #f3b48b;
+}
+header .upper-header {
+  display: flex;
+}
+header .upper-header img {
+  height: 40hv;
+  width: 500px;
+}
+header .upper-header .name-etc {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .upper-header .name-etc h2 {
+  font-size: 3rem;
+  margin: 1%;
+  padding: 1%;
+}
+header .upper-header .name-etc h4 {
+  font-size: 2rem;
+  margin: 1%;
+  padding: 1%;
+}
+header p {
+  margin: 1%;
+  padding: 1%;
+  font-size: 1.3rem;
+}
+header .lower-header {
+  height: 30%;
+  margin: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .lower-header .button {
+  border: 1px solid #8d3400;
+  text-decoration: none;
+  background: #543c2c;
+  color: white;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.14rem;
+  display: flex;
+  height: 7vh;
+  width: 200px;
+}
+header .lower-header .button:hover {
+  background: #a5887a;
+  color: #543c2c;
+}
+.section2 {
+  display: flex;
+  height: 25vh;
+  background: #df915e;
+}
+.section2 article {
+  width: 50%;
+  margin: 1%;
+  padding: 1%;
+}
+.section2 article h4 {
+  font-size: 1.6rem;
+  margin: 1%;
+  padding: 1%;
+}
+.section2 article p {
+  font-size: 1.15rem;
+  margin: 1%;
+  padding: 1%;
+}
+.section3 {
+  height: 20vh;
+  width: 100%;
+  background: #f3b48b;
+  display: flex;
+  flex-direction: column;
+}
+.section3 h4 {
+  font-size: 2rem;
+}
+.section3 table {
+  display: flex;
+  height: 100%;
+  margin: 1% 0;
+}
+.section3 table tr {
+  display: flex;
+  width: 187%;
+  border: 1px solid black;
+}
+.section3 table tr th {
+  height: 3vh;
+  width: 25%;
+}
+footer {
+  background: #543c2c;
+  width: 100%;
+  display: flex;
+  height: 7vh;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
